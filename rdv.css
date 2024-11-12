@@ -1,0 +1,84 @@
+body {
+    background-color: #0D0F3C;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+
+}
+
+h1,
+h2 {
+    font-family: "Rubik Mono One", monospace;
+}
+
+p {
+    margin-top: 1px white solid;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px white solid;
+
+    img {
+        width: 70px;
+    }
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin: 20px;
+}
+
+#para {
+    display: flex;
+    justify-content: left;
+    margin-right: 210px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px white solid;
+    margin-bottom: 10px;
+    padding:100px 100px;
+    img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+.enfant img{
+width: 300px;
+border: radius 5px; ;
+
+}
+.enfant{
+    background-color: #0D0F3C;
+    border: 5pt #17194f solid ;
+    box-shadow: 100px rgb(255, 255, 255) ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+footer {
+    font-family:  sans-serif;
+}
