@@ -36,6 +36,7 @@ header li {
     display: flex;
     justify-content: left;
     margin-right: 210px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sec1 {
@@ -58,8 +59,7 @@ header li {
 
 .parent{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     margin-block: 100px;
     margin-left: 100px;
     margin-right: 100px;
@@ -73,12 +73,25 @@ border: radius 5px; ;
 .enfant{
     background-color: #0D0F3C;
     border: 5pt #17194f solid ;
-    box-shadow: 100px rgb(255, 255, 255) ;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255) ;
     border-radius: 20px;
     text-align: center;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
 }
 
 footer {
     font-family:  sans-serif;
+}
+
+.carte {
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.PICS {
+
 }
